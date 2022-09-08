@@ -24,7 +24,7 @@
 2, data analysis tools: python or rapidminder.     python is powful but rapidminder is easier to use
 
 ### installtion
-
+https://my.rapidminer.com/nexus/account/index.html
 
 
 ### open a sample data:
