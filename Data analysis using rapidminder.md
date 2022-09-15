@@ -92,8 +92,8 @@ C:\Users\wp\Documents\RapidMiner\Local Repository\processes
 ### sort
 
 * classwork2.1
-* 1  convert the type of the new attributes to date type
-* 2 select the date of all the purchase recorder of  the user  10944750  
+* 1 convert the type of the new attributes to date type, delete the orign "date" columns and store in the data repository
+* 2 select the date of all the purchase recorder of  the user  10944750  (expression/custom_filter)
 * 3 sort the data by the date and show the earliest 5 recorder 
 
 ### Aggregate 
