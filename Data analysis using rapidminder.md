@@ -384,26 +384,29 @@ difference between past data and new data
 select attribution by weights
 
 * classwork 10.1
-* 1  import past campaign data and remove the columns name
-* 2, split the data to 0.8 and 0.2 ,  train a model using Decision Tree and get the weights for each columns
-* 3,  validate the model by the operator performance(binominal) using  f measure
+* 1  import past campaign data; remove the columns name; multiply the data
+* 2, using operator " Weight by Information Gain "  get  the weight for each columns
+* 3, split data; train a model using Decision Tree; validate it by f1; get the weights for each columns by this model
+* 4, remove the least weight; tarn a model again; compare the scores
 
-#### feature weights in rapidminer                
-
-* classwork 10.2
-* 1， Using operator "Compare ROCs" to compare Decision Tree  and  Naive Bayes model in  past campaign data    
-* 2,    using operator " Weight by Information Gain "  get  the weight for each columns
-* 3,    Use operator Cross Validation to get a Decision Tree model 
+#### feature weights in rapidminer    
 
 ### Find Threshold
 
 Typically, omitting recipients that would have responded, incurs a higher cost than sending a campaign to somebody who does not respond. Accounting for those costs, calculate and apply the optimum confidence threshold.  
 
-Specify the costs of missing a potential respondent vs. the costs of including somebody into the campaign      
+Specify the costs of missing a potential respondent vs. the costs of including somebody into the campaign 
 
-*  classwork  11.1
-*  1, import past campaign data and remove the columns name; Use operator Cross Validation to get a Decision Tree model (review)
-* 2, Using find Threshold operator, specify the costs of missing a potential respondent vs. the costs of including somebody into the campaign. get the Threshold and apply the threshold on the new data
+* classwork 10.2
+* 1，Use operator Cross Validation to get a Decision Tree model；validate this model by the operator performance(binominal) 
+* 2, Using find Threshold operator, specify the costs of missing a potential respondent vs. the costs of including somebody into the campaign. get the Threshold and apply the threshold on the new data    
+
+### weight and threshold on alibaba data
+
+* classwork 10.2
+* 1. show the weight of att by the ways above
+* 2, Using find Threshold operator and get the Threshold and apply the threshold on the test data and show the change of f1-scores 
+     
 
 ## CREDIT RISK MODELING
 
