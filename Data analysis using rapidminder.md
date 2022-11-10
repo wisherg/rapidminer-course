@@ -383,18 +383,12 @@ difference between past data and new data
 
 select attribution by weights
 
-#### ROC
-
-http://mlwiki.org/index.php/ROC_Analysis
-
 * classwork 10.1
 * 1  import past campaign data and remove the columns name
 * 2, split the data to 0.8 and 0.2 ,  train a model using Decision Tree and get the weights for each columns
-* 3,  validate the model by the operator performance(binominal) using  f measure and AUC
+* 3,  validate the model by the operator performance(binominal) using  f measure
 
-#### feature weights in rapidminer
-
-#### Compare ROCs                  
+#### feature weights in rapidminer                
 
 * classwork 10.2
 * 1， Using operator "Compare ROCs" to compare Decision Tree  and  Naive Bayes model in  past campaign data    
