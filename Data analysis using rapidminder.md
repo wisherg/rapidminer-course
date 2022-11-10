@@ -403,7 +403,7 @@ Specify the costs of missing a potential respondent vs. the costs of including s
 
 ### weight and threshold on alibaba data
 
-* classwork 10.2
+* classwork 10.3
 * 1. show the weight of att by the ways above
 * 2, Using find Threshold operator and get the Threshold and apply the threshold on the test data and show the change of f1-scores 
      
