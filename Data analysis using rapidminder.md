@@ -420,15 +420,20 @@ For the firms where a default observation is missing, the default risk should be
 
 This optimization operator varies the important SVM parameters C and gamma to return a model with maximum prediction accuracy.
 
-* classwork 11.2
+* classwork 11.1
 * 1 import  the Counterparty Risk Data ;  set the role;  split data into those rows that have a label value and those where the label value is missing;  remove the labels columns for the exampleSets which should be used to predict the default risk 
 * 2, Use operator Cross Validation to train a Support Vector Machine (SVM) model 
 * 3 Use the optimization operator varies the important SVM parameters C and gamma to return a model with maximum prediction accuracy;  Using the optimized SVM model, predict the likelihood of credit default.
 
-* classwork 11.3
+* classwork 11.2
 * 1,  using operator " Weight by Information Gain "  get  the weight for each columns
 * 2,  replace the SVM to a tree decision model 
 * 3 , Using find Threshold operator, specify the costs.   get the Threshold and apply the threshold on the new data
+
+* classwork 11.3
+
+1, Use the optimization operator on alibaba-data
+
 
 ## MARKET BASKET ANALYSIS
 
