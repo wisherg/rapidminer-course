@@ -437,6 +437,10 @@ This optimization operator varies the important SVM parameters C and gamma to re
 
 ## MARKET BASKET ANALYSIS
 
+Beer and Diapers: The Impossible Correlation
+https://tdwi.org/articles/2016/11/15/beer-and-diapers-impossible-correlation.aspx
+
+
 Model associations between products by determining sets of items frequently purchased together and building association rules to derive recommendations.
 
 The data denotes how many times a certain product has been purchased as part of a transactions
