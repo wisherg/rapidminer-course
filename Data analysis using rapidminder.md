@@ -437,7 +437,11 @@ This optimization operator varies the important SVM parameters C and gamma to re
 
 ## MARKET BASKET ANALYSIS
 
-Beer and Diapers: The Impossible Correlation
+
+Beer and Diapers
+
+https://jborden.com/2018/12/07/beer-and-diapers-the-perfect-couple/
+
 https://tdwi.org/articles/2016/11/15/beer-and-diapers-impossible-correlation.aspx
 
 
