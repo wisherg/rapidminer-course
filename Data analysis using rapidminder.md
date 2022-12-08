@@ -548,7 +548,7 @@ behavior_type分为1浏览（b），2收藏，3购物车，4购买(four type of 
 
 
 
-* classwork 15.1
+* classwork 14.4
 
 * 1,  define a subprocess which contain the core process above; using this subprocess generate the data in 18 
 * 2,  use the model to predict the sales number of the day 18  and validate this result by performance operate
