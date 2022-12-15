@@ -557,8 +557,8 @@ behavior_type分为1浏览（b），2收藏，3购物车，4购买(four type of 
 
 ### loop
 
-* classwork 15.1
-* 1, generate new column by loop operator 
+* classwork 15.1  
+* 1, generate new column by loop operator  (eval(%{iteration}) %{iteration})
 * 2, generate new column by loop operator with "reuse result" 
 
 * classwork 15.2
