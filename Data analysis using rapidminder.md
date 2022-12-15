@@ -555,6 +555,12 @@ behavior_type分为1浏览（b），2收藏，3购物车，4购买(four type of 
 
 ### how to get more example and more attribution
 
+### loop
+
+* classwork 15.1
+* 1, generate new column by loop operator 
+* 2, generate new column by loop operator with "reuse result" 
+
 * classwork 15.2
 * 1, using loop operator get the data of different date
 * 2, get more example by Sliding window 
